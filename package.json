@@ -1,0 +1,28 @@
+{
+  "name": "disparo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -L src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.784.0",
+    "concat-stream": "^2.0.0",
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "multer": "^1.4.2",
+    "neat-csv": "^5.2.0",
+    "nodemon": "^2.0.6",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^1.2.0",
+    "read-excel-file": "^4.0.7",
+    "swagger-jsdoc": "^5.0.0",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
