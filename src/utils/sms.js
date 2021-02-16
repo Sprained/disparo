@@ -14,7 +14,7 @@ module.exports = async function sms(hora, nome, telefone, dia, medico, especiali
     });
 
     let params = {
-        Message: `Olá ${nome} confirmando sua consulta marcada na Free Life Saúde para o dia: ${dia} as: ${hora}`, /* required */
+        Message: `Olá ${nome} confirmando sua consulta marcada na Free Life Saúde para o dia: ${dia}, com o Dr. (a) ${medico} ${especialidade} as: ${hora}`, /* required */
         PhoneNumber: `+55${telefone}`,
     };
 
